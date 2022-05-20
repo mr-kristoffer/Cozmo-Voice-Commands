@@ -330,8 +330,8 @@ class VoiceCommands():
                 print("Now the grand finalle: turn around and park!")
                 print("Turning...")
             #this value needs to be tweaked (90 or 95)
-            robot.turn_in_place(degrees(180)).wait_for_completed()
-            #robot.turn_in_place(degrees(95)).wait_for_completed()
+            robot.turn_in_place(degrees(90)).wait_for_completed()
+            robot.turn_in_place(degrees(90)).wait_for_completed()
             time.sleep( 1 )
             if self.log:
                 print("Get out of the way: here I go!")
